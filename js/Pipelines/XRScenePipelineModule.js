@@ -34,7 +34,7 @@ const setRenderer = ({ canvas, sizes, GLctx }) => {
     alpha: true,
     antialias: true,
   })
-
+  renderer.shadowMap.enabled = true
   renderer.autoClear = false
   renderer.setSize(sizes.width, sizes.height)
 
