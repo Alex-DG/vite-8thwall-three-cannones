@@ -1,5 +1,7 @@
 import CannonWorld from '../Experience/CannonWorld'
 import CannonWorld2 from '../Experience/CannonWorld2'
+import CannonWorld3 from '../Experience/CannonWorld3'
+import CannonWorld4 from '../Experience/CannonWorld4'
 
 import Dummy from '../Experience/Dummy'
 import ParticleSystem from '../Experience/ParticleSystem'
@@ -25,7 +27,7 @@ export const initWorldPipelineModule = () => {
     // dummy = new Dummy({ scene })
     // particleSystem = new ParticleSystem({ scene, count: 3000 })
 
-    cannonWorld = new CannonWorld2({ scene, camera })
+    cannonWorld = new CannonWorld4({ scene, camera })
 
     console.log('✨', 'World ready')
   }
