@@ -1,10 +1,11 @@
-# ViteJS 8thwall ThreeJS Template
+# ViteJS 8thwall ThreeJS + CannonES
 
-Minimal reusable template project: 8thwall + threeJS made with viteJS⚡
+- This project shows how to setup cannones with 8thwall and three.js with different exemples
 
-[Demo](https://vite-8thwall-three-template.vercel.app/)
+## Demo
 
-![Screenshot 2022-08-10 154837](https://user-images.githubusercontent.com/4311684/183917872-75d8d990-56f4-40fe-9443-a5e8174dd152.png)
+
+https://github.com/Alex-DG/vite-8thwall-three-cannones/assets/4311684/fc61c1b3-d16a-4b86-855b-d2f79f3c4db1
 
 
 ## Setup
