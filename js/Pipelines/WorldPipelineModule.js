@@ -27,7 +27,12 @@ export const initWorldPipelineModule = () => {
     // dummy = new Dummy({ scene })
     // particleSystem = new ParticleSystem({ scene, count: 3000 })
 
-    cannonWorld = new CannonWorld4({ scene, camera })
+    cannonWorld = new CannonWorld({ scene, camera })
+    
+    // Uncomment to experient the different examples one by one
+    // cannonWorld = new CannonWorld2({ scene, camera })
+    // cannonWorld = new CannonWorld3({ scene, camera })
+    // cannonWorld = new CannonWorld4({ scene, camera })
 
     console.log('✨', 'World ready')
   }
